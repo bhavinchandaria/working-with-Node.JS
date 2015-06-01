@@ -2,8 +2,7 @@ var http = require("http");
 var fs = require("fs");
 var path = require("path");
 var mime = require("mime");
-var express = require('express');
-var stormpath = require('express-stormpath');
+
 
 
 function send404(response){
